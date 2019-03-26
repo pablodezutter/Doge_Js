@@ -1,0 +1,23 @@
+event -target - execution
+
+load page - button - change
+
+getelements= class, tag(s)
+getelement= id (unique)
+
+console.log(document.getElementsbyTagName
+
+innerHTML = property
+(you can speak to every element .element)
+
+let "variabel" -> usb stick, altijd opvraagbaar = blockscoped -> kan je niet altijd gebruiken
+var "variabel" ook= functionscoped
+const "variabel" -> never changes
+
+let dogeImage=document.createElement("img");
+    dogeImage.src="doge.png"; ->>>> image is invisible, in the memory of the computer
+
+
+
+
+

@@ -11,3 +11,11 @@ Button wil niet in het midden maar misschien helpt het als ik mijn css file link
 
 create external javascript
 
+looking for correct phrasing behind .addEventListenerµ
+
+#dindag 29 maart
+
+Oefening nog eens proberen na uitleg 
+
+
+
