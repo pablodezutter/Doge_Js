@@ -15,7 +15,9 @@ looking for correct phrasing behind .addEventListenerµ
 
 #dindag 29 maart
 
-Oefening nog eens proberen na uitleg 
+Oefening nog eens proberen na uitleg. 
+Start over with new html
+Going back to learning some java with codecademy
 
 
 
