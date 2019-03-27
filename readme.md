@@ -23,5 +23,6 @@ Getting some help thansk to Fred and Simon!
 Analyzing code of Simon... 
 
 If you create element use a html one!! img and not image
+https://pablodezutter.github.io/Doge_Js/. 
 
 
