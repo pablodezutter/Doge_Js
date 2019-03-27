@@ -1,23 +1,19 @@
-function pageload(){
-  document.getElementById('doge').textContent="Woof";
-}
-function onhover(){
-  document.getElementById("doge").addEventListener("mouseover", mouseOver);
-  document.getElementById("doge").addEventListener("mouseout",mouseOut);
 
-    function mouseOver (){
-        document.getElementById("doge").innerHTML="doggie.png";
-        }
+    //When the page is finished loading, change the text to "Woof!"
 
-    function mouseOut (){
-        document.getElementById("doge").innerHTML="Woof";
 
-}
-
-document.getElementById('doge').addEventListener("click", onclick);
-function click(){
-document.getElementsById('doge').innerHTML='doge.png'
+document.getElementById("doge").innerHTML="Woof!";
 
 
 
-}
+    //When you hover over the button "Woof!" should disappear and a little doggo icon should appear instead
+
+var imageDoggo;
+image.src="doge.png"
+
+document.getElementById("doge").
+
+
+
+    //When you click the button a picture of a doge should show up somewhere on the page
+    //When you click the button again, the picture should disappear
