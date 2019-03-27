@@ -22,5 +22,6 @@ Going back to learning some java with codecademy
 Getting some help thansk to Fred and Simon! 
 Analyzing code of Simon... 
 
+If you create element use a html one!! img and not image
 
 

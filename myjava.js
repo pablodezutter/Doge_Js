@@ -15,11 +15,17 @@ window.addEventListener("load", function(){
 var doge =  document.getElementById("doge");
 //haal mij doge uit de kast
 var image= document.createElement("img");
+console.log(image);
 //maak een element img aan
-var dog= document.createElement("dogimage")
+var dogimage= document.createElement("img");
+console.log(dogimage);
 
 doge.addEventListener ("mouseover", mouseOver);
 //kijk of er een muis over gaat
+
+doge.addEventListener ("mouseout", mouseOut);
+document.body.addEventListener("click", addDogeImage);
+
 
 function mouseOver(){
   if (document.getElementById("dogIcon")) {
@@ -31,7 +37,7 @@ function mouseOver(){
   doge.appendChild(image);
 //inhoud van de funtie: als element image doge er is 'return'
 }
-doge.addEventListener ("mouseout", mouseOut);
+
 
 function mouseOut() {
   doge.removeChild(image);
@@ -43,20 +49,16 @@ function mouseOut() {
 
 
     //When you click the button a picture of a doge should show up somewhere on the page
-document.body.addEventListener("click", addDogeImage);
 
     function addDogeImage() {
-      if (document.getElementById("dog")) {
-          var element = document.getElementById("dog");
+      if (document.getElementById("dogImg")) {
+          var element = document.getElementById("dogImg");
           element.parentNode.removeChild(element);
           return;
       }
       dogimage.src = "doggie.png";
-      dogimage.id = "dog";
-      document.body.appendChild(doggie);
+      dogimage.id = "dogImg";
+      document.body.appendChild(dogimage);
     }
-
-
-
 
     //When you click the button again, the picture should disappear
