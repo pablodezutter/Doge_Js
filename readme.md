@@ -19,5 +19,8 @@ Oefening nog eens proberen na uitleg.
 Start over with new html
 Going back to learning some java with codecademy
 
+Getting some help thansk to Fred and Simon! 
+Analyzing code of Simon... 
+
 
 
